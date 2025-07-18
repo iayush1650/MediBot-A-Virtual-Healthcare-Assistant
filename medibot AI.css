@@ -1,0 +1,98 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f0f9ff, #e0f7fa);
+    margin: 0;
+    padding: 0;
+    color: #212121;
+  }
+  
+  .container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0077b6;
+  }
+  
+  h1 span {
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 0.3rem;
+    color: #0096c7;
+  }
+  
+  nav {
+    margin-bottom: 2rem;
+  }
+  
+  nav button {
+    background: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0.3rem;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  nav button:hover {
+    background: #0077b6;
+  }
+  
+  input, button, select {
+    margin: 0.5rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 250px;
+    max-width: 90%;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #00b4d8;
+    box-shadow: 0 0 5px rgba(0, 180, 216, 0.5);
+  }
+  
+  button {
+    background-color: #38b000;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2b9348;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #caf0f8;
+    margin: 0.3rem auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  #app > div {
+    margin-top: 2rem;
+  }
+  
+  #symptomResult {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #0077b6;
+    font-style: italic;
+  }
+  

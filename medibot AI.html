@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediBot AI</title>
+  <link rel="stylesheet" href="medibot AI.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="medibot AI.js"></script>
+</head>
+<body>
+    <body onload="requestNotificationPermission()"></body>
+  <div class="container">
+    <h1>MediBot AI <span>– Virtual Healthcare Assistant</span></h1>
+    <nav>
+      <button onclick="navigate('home')">🏠 Home</button>
+      <button onclick="navigate('symptom')">💬 Symptom Checker</button>
+      <button onclick="navigate('reminder')">⏰ Reminders</button>
+      <button onclick="navigate('emergency')">🚨 Emergency</button>
+    </nav>
+    <div id="app"></div>
+  </div>
+</body>
+</html>
